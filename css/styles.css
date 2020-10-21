@@ -54,6 +54,11 @@
     url('../fonts/roboto-v20-latin_cyrillic-900.ttf') format('truetype'),
     url('../fonts/roboto-v20-latin_cyrillic-900.svg#Roboto') format('svg'); /* Legacy iOS */
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --main-text-cl: #757575;
   --accent-cl: #2196f3;
@@ -69,6 +74,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10 px;
+  border: 1px;
+  width: 1600 px;
+  height: 80 px;
 }
 .link {
   font-style: normal;
@@ -87,6 +101,8 @@ body {
   color: var(--accent-cl);
 }
 .header-logo {
+  display: flex;
+  margin-left: 215 px;
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -99,10 +115,25 @@ body {
 .web-logo {
   color: var(--accent-cl);
 }
+.menu {
+  display: flex;
+  justify-content: center;
+}
 .menu-item {
   list-style: none;
+  padding-right: 50 px;
+}
+.menu > .menu-item {
+  padding-right: 50 px;
+}
+.menu.link {
+  display: block;
+  align-items: center;
 }
 .header-conect {
+  display: inline-block;
+  flex-direction: row;
+  justify-items: legacy;
   color: var(--main-text-cl);
 }
 .page-title {
