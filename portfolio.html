@@ -15,55 +15,59 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+   <header class="page-header">
+      <div class="header-conteiner conteiner">
         <a class="header-logo" href="./index.html" lang="en">
           <span class="web-logo">Web</span>Studio
         </a>
-        <ul>
-          <li class="menu-item">
-            <a class="link" href="./index.html">Студия</a>
-          </li>
-          <li class="menu-item">
-            <a class="link current" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="menu-item"><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <address>
-        <a class="link header-conect" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="link header-conect" href="tel:+380961111111"
-          >+38 096 111 11 11</a
-        >
-      </address>
+
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="menu-item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <address class="conect-nav">
+          <a class="link header-conect" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="link header-conect" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </address>
+      </div>
     </header>
     <main>
-      <section>
-        <h1 hidden>Портфолио</h1>
-        <ul>
-          <li class="btn-item">
-            <button class="btn-portfolio" type="button">Все</button>
+      <section class="section">
+        <div class="conteiner">
+          <h1 hidden>Портфолио</h1>
+        <ul class="menu-filters">
+          <li class="btn-portfolio">
+            <a class="link" href="">Все</a>
           </li>
 
-          <li class="btn-item">
-            <button class="btn-portfolio" type="button">Веб-сайты</button>
+          <li class="btn-portfolio">
+            <a class="link" href="">Веб-сайты</a>
           </li>
 
-          <li class="btn-item">
-            <button class="btn-portfolio" type="button">Приложения</button>
+          <li class="btn-portfolio">
+            <a class="link" href="">Приложения</a>
           </li>
 
-          <li class="btn-item">
-            <button class="btn-portfolio" type="button">Дизайн</button>
+          <li class="btn-portfolio">
+            <a class="link" href="">Дизайн</a>
           </li>
 
-          <li class="btn-item">
-            <button class="btn-portfolio" type="button">Маркетинг</button>
+          <li class="btn-portfolio">
+            <a class="link" href="">Маркетинг</a>
           </li>
         </ul>
-        <ul>
+        <ul class="portfolio">
           <li class="portfolio-item">
             <img
               src="./img/imgportf1.jpg"
@@ -168,33 +172,37 @@
             <p class="discription">Приложение</p>
           </li>
         </ul>
+        </div>
+        
       </section>
     </main>
-    <footer class="dark-bg">
-      <a class="link" href="">
-        <span class="footer-logo" lang="en">
-          <span class="web-logo">Web</span>Studio
-        </span>
-      </a>
-      <address>
-        <ul>
-          <li class="footer-item">
-            <a class="link footer-town" href=""
-              >г.Киев,пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="link footer-conect" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="link footer-conect" href="tel:+380961111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="conteiner">
+        <a href="./index.html" class="footer-link link">
+          <span class="footer-logo" lang="en">
+            <span class="web-logo">Web</span>Studio
+          </span>
+        </a>
+        <address>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="link footer-town"
+                >г.Киев,пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="mailto:info@example.com" class="link footer-conect"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="tel:+380961111111" class="link footer-conect"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
