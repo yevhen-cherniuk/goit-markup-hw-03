@@ -102,9 +102,6 @@ ul {
   margin-left: 0px;
   padding-left: 0px;
 }
-
-/* .page-header {
-} */
 .header-conteiner {
   display: flex;
   align-items: center;
@@ -243,8 +240,6 @@ ul {
 }
 .menu-features .title {
   margin-bottom: 10px;
-
-  min-width: 270px;
 }
 .title {
   min-height: 16px;
@@ -281,17 +276,12 @@ ul {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -50px;
-  margin-bottom: 0px;
-  padding: 0;
 }
 .img-item {
   margin-left: 30px;
   margin-top: 50px;
   list-style: none;
   flex-basis: calc(100% / 3 - 30px);
-}
-.card {
-  background-color: var();
 }
 .team {
   font-style: normal;
@@ -306,8 +296,6 @@ ul {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -50px;
-  margin-bottom: 0px;
-  padding: 0;
 }
 .team-item {
   margin-left: 30px;
@@ -376,13 +364,11 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 0;
+  padding-bottom: 50px;
 }
 .btn-portfolio {
   display: inline-block;
-  outline: transparent;
-  margin-left: 8px;
-  padding: 6px 22px;
+  margin-right: 8px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
@@ -390,15 +376,11 @@ ul {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--black);
-  background-color: var(--creamy);
-  text-decoration: none;
   cursor: pointer;
-}
-.btn-item {
-  list-style: none;
+  border: transparent;
 }
 .btn-portfolio:hover,
-.btn-portfolio.link:focus {
+.btn-portfolio:focus {
   color: var(--white);
   background-color: var(--accent-cl);
 }
