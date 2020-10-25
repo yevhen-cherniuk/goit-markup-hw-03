@@ -106,7 +106,9 @@ ul {
   display: flex;
   align-items: center;
   justify-items: flex-end;
+  border-bottom: 1px solid #ececec;
 }
+
 .header-logo {
   font-family: Raleway, sans-serif;
   text-decoration: none;
@@ -180,7 +182,7 @@ ul {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: var(--dark-bg);
 }
@@ -213,6 +215,9 @@ ul {
 
   color: var(--white);
   background-color: var(--accent-cl);
+}
+.features {
+  padding-top: 94px;
 }
 .visually-hidden {
   position: absolute !important;
@@ -368,6 +373,7 @@ ul {
 }
 .btn-portfolio {
   display: inline-block;
+  padding: 6px 22px;
   margin-right: 8px;
   border-radius: 4px;
   font-style: normal;
@@ -402,11 +408,13 @@ ul {
 .portfolio-item:nth-child(-n + 3) {
   margin-top: 0;
 }
+.card-footer {
+  padding: 20px 24px;
+}
+
 .portfolio-label {
   text-align: start;
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -415,8 +423,6 @@ ul {
 }
 .discription {
   text-align: start;
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
